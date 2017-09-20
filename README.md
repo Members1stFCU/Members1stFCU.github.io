@@ -25,4 +25,4 @@ gem install jekyll bundler
 
 ### Windows
 
-[Jekyll on Windows](http://tfs:8080/tfs/Development/Internal/_git/DeveloperBlog)
+[Jekyll on Windows](https://jekyllrb.com/docs/windows/)
