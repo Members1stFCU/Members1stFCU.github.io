@@ -13,22 +13,101 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+locale: "en-US"
+name: &name Members 1st FCU
+title: &title Members 1st FCU Developer Blog
+email: &email webupdate@members1st.org
+description: &description > # this means to ignore newlines until "baseurl:"
+  A blog for developers at Members 1st FCU to write their thoughts, tips, and tricks
+  for developing, building, and deploying lightweight, modular APIs and websites.
+  We primarily use .NET Core (2.0) and Angular (4+) for development, TeamCity
+  for builds, Octopus Deploy, and RedGate DLM for database source control & deployment.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://Members1stFCU.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: minima
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+minimal_mistakes_skin: "mint"
+paginate: 5
+paginate_path: "/page:num/"
+
+# Site Author
+author:
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/assets/images/site-logo.png"
+  bio              : "Credit Union serving the central Pennsylvania area."
+  location         : "Mechanicsburg, PA"
+  email            : "AppSupport@members1st.org"
+  uri              : "https://members1st.org"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : "members1stfederalcreditunion"
+  foursquare       :
+  github           : "members1stfcu"
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        : "members1stfcu"
+  lastfm           :
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          : "members1stfcu"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  # from _includes/author-profile-custom-links.html
+  linkedincompany  : "members-1st-fcu"
+  stackoverflowcompany : "m1fcu"
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+include: ["_pages"]
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: "portfolio"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

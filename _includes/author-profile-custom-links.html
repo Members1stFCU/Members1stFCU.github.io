@@ -1,0 +1,16 @@
+
+    {% if author.linkedincompany %}
+        <li>
+            <a href="https://www.linkedin.com/company/{{ author.linkedincompany }}" itemprop="sameAs">
+                <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+            </a>
+        </li>
+    {% endif %}
+
+    {% if author.stackoverflowcompany %}
+        <li>
+            <a href="https://stackoverflow.com/jobs/companies/{{ author.stackoverflowcompany }}" itemprop="sameAs">
+                <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow
+            </a>
+        </li>
+    {% endif %}
