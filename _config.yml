@@ -62,7 +62,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "members1stfcu"
+  username               : &defsocial "members1stfcu"
 facebook:
   username               : &facebook "members1stfederalcreditunion"
   app_id                 :
@@ -89,18 +89,18 @@ author:
   bio              : "Credit Union serving the central Pennsylvania area."
   location         : "Mechanicsburg, PA"
   email            : "AppSupport@members1st.org"
-  uri              : "https://members1st.org"
+  uri              : "https://www.members1st.org"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "members1stfederalcreditunion"
+  facebook         : *facebook
   foursquare       :
-  github           : "members1stfcu"
+  github           : *defsocial
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "members1stfcu"
+  instagram        : *defsocial
   lastfm           :
   linkedin         :
   pinterest        :
@@ -108,7 +108,7 @@ author:
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "members1stfcu"
+  twitter          : *twitter
   vine             :
   weibo            :
   xing             :
