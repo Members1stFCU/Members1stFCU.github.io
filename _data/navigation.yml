@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "About Us"
-    url: /about
+    url: /about/
   - title: "Tags"
-    url: /tags
+    url: /tags/
   - title: "Sample Collection"
-    url: /portfolio/cat1-page1
+    url: /portfolio/cat1-page1/
 
 ### collections
 # portfolio
@@ -13,15 +13,15 @@ portfolio:
   - title: Category 1
     children:
       - title: "Category 1 - Page 1"
-        url: /portfolio/cat1-page1
+        url: /portfolio/cat1-page1/
       - title: "Category 1 - Page 2"
-        url: /portfolio/cat1-page2
+        url: /portfolio/cat1-page2/
       - title: "Category 1 - Page 3"
-        url: /portfolio/cat1-page3
+        url: /portfolio/cat1-page3/
   - title: Category 2
     children:
       - title: "Category 2 - Page 1"
-        url: /portfolio/cat2-page1
+        url: /portfolio/cat2-page1/
       - title: "Category 2 - Page 2"
-        url: /portfolio/cat2-page2
+        url: /portfolio/cat2-page2/
         
