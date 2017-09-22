@@ -27,6 +27,9 @@ url: "https://Members1stFCU.github.io" # the base hostname & protocol for your s
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 highlighter: rouge
 theme: minimal-mistakes-jekyll
 plugins:
