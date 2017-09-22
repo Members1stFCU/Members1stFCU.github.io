@@ -4,8 +4,8 @@ main:
     url: /about
   - title: "Tags"
     url: /tags
-  - title: "My Sample Collection"
-    url: /mycollection/cat1-page1
+  - title: "Sample Collection"
+    url: /portfolio/cat1-page1
 
 ### collections
 # portfolio
