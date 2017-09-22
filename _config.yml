@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "contrast", "dark", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : &title Members 1st FCU Developer Blog
+title                    : &title Members 1st Dev Blog
 title_separator          : "-"
 name                     : &name Members 1st FCU
 email                    : &email webupdate@members1st.org
