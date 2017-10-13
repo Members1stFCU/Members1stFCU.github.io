@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/site-logo.png"
+  avatar           : "/assets/images/m1logo.png"
   bio              : "Credit Union serving the central Pennsylvania area."
   location         : "Mechanicsburg, PA"
   email            : "AppSupport@members1st.org"

@@ -6,3 +6,5 @@ permalink: /about/
   for developing, building, and deploying lightweight, modular APIs and websites.
   We primarily use .NET Core (2.0) and Angular (4+) for development, TeamCity
   for builds, Octopus Deploy, and RedGate DLM for database source control & deployment.
+
+  [Our Team](/team)
