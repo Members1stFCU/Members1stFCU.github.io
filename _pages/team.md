@@ -1,8 +1,4 @@
 ---
-title: Members 1st Developer Team
+title: Members 1st Development Team
 permalink: /team/
 ---
-
-# Test Header
-
-## Test Subheader
