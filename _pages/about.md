@@ -1,4 +1,5 @@
 ---
+title: About Members 1st
 permalink: /about/
 ---
 
