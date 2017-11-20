@@ -12,7 +12,7 @@ This is a blog for developers at Members 1st FCU to log their thoughts, tips, an
 ```
 git clone https://github.com/Members1stFCU/Members1stFCU.github.io.git
 cd DeveloperBlog
-bundle exec jekyll serve
+npm start
 ```
 
 ## Install Jekyll and Bundler
