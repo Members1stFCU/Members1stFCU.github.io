@@ -24,11 +24,11 @@ If you want to skip over the manual installation, you can skip to "Scripts", con
 
 ### VS Code
 
-The first thing you'll want to do is download VS Code if you do not have it already. It can be obtained at https://code.visualstudio.com/
+The first thing you'll want to do is download VS Code if you do not have it already. It can be obtained at [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ### .NET Core
 
-Next, download the .NET Core 2.0 SDK at https://www.microsoft.com/net/download/core or use [this direct link for Windows x64](https://download.microsoft.com/download/7/3/A/73A3E4DC-F019-47D1-9951-0453676E059B/dotnet-sdk-2.0.2-win-x64.exe).
+Next, download the .NET Core 2.0 SDK at [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core) or use [this direct link for Windows x64](https://download.microsoft.com/download/7/3/A/73A3E4DC-F019-47D1-9951-0453676E059B/dotnet-sdk-2.0.2-win-x64.exe).
 
 ### Postman
 
