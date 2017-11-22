@@ -6,7 +6,7 @@ tags:
   - Setup Scripts
 ---
 
-This posts details setting up your environment for .NET Core development, specifically for REST APIs. First, I'll go over the different tools needed to follow along in this series. 
+This post details setting up your environment for .NET Core development, specifically for REST APIs. First, I'll go over the different tools needed to follow along in this series. 
 
 ***
 This is an ongoing series on .NET Core.
