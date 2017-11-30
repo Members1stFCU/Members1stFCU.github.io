@@ -4,9 +4,10 @@
 <p>
   <strong>Posted by</strong>
   <a href="/team#{{ member.name }}" class="badge">
-      {% if member.github %}
-      {% endif %}
-      {{ member.name }}
+    {% if member.github %}
+        <img src="https://github.com/{{ member.github }}.png" title="Avatar of {{ member.name }}" />
+    {% endif %}
+    {{ member.name }}
   </a>
 </p>
 

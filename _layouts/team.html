@@ -6,6 +6,7 @@ layout: single
 
 <h2 class="custom__author-name">
     {% if member.github %}
+        <img src="https://github.com/{{ member.github }}.png" title="Avatar of {{ member.name }}" />
     {% endif %}
     <a name="{{ member.name }}">{{ member.name }}</a>
 </h2>
