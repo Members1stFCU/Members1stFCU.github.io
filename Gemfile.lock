@@ -215,6 +215,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-avatar
   jekyll-feed
   jekyll-gist
   jekyll-paginate

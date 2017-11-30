@@ -1,0 +1,83 @@
+---
+layout: single
+---
+
+{% for member in site.data.team %}
+
+<h2 class="custom__author-name">
+    {% if member.github %}
+        {% avatar user=member.github %}
+    {% endif %}
+    <a name="{{ member.name }}">{{ member.name }}</a>
+</h2>
+
+<p>
+    <strong>{{ member.title }}</strong>
+</p>
+
+<p>
+    {{ member.description }}
+</p>
+
+<div class="author__urls-wrapper">
+    <ul class="author__urls social-icons">
+        {% if member.github %}
+        <li>
+            <a href="https://www.github.com/{{ member.github }}" target="_blank">
+                <i class="fa fa-fw fa-github" aria-hidden="true"></i>
+                GitHub
+            </a>
+        </li>
+        {% endif %}
+
+        {% if member.linkedin %}
+        <li>
+            <a href="https://www.linkedin.com/in/{{ member.linkedin }}" target="_blank">
+                <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>
+                LinkedIn
+            </a>
+        </li>
+        {% endif %}
+
+        {% if member.stackoverflow %}
+        <li>
+            <a href="https://www.stackoverflow.com/users/{{ member.stackoverflow }}" target="_blank">
+                <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i>
+                Stackoverflow
+            </a>
+        </li>
+        {% endif %}
+
+        {% if member.facebook %}
+        <li>
+            <a href="https://www.facebook.com/{{ member.facebook }}" target="_blank">
+                <i class="fa fa-fw fa-facebook" aria-hidden="true"></i>
+                Facebook
+            </a>
+        </li>
+        {% endif %}
+
+        {% if member.twitter %}
+        <li>
+            <a href="https://twitter.com/{{ member.twitter }}" target="_blank">
+                <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
+                Twitter
+            </a>
+        </li>
+        {% endif %}
+
+        {% if member.links %}
+          {% for lnk in member.links %}
+            <li>
+                <a href="{{ lnk.url }}" target="_blank">
+                    <i class="fa fa-fw fa-link" aria-hidden="true"></i>
+                    {{ lnk.name }}
+                </a>
+            </li>
+          {% endfor %}
+        {% endif %}
+    </ul>
+</div>
+
+{% endfor %}
+

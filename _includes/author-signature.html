@@ -1,0 +1,15 @@
+{% for member in site.data.team %}
+{% if member.name == page.author %}
+
+<p>
+  <strong>Posted by</strong>
+  <a href="/team#{{ member.name }}" class="badge">
+      {% if member.github %}
+          {% avatar user=member.github %}
+      {% endif %}
+      {{ member.name }}
+  </a>
+</p>
+
+{% endif %}
+{% endfor %}

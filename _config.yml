@@ -258,6 +258,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      authorable: true
       read_time: true
       comments: true
       share: true

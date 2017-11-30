@@ -1,0 +1,34 @@
+.custom__author-name {
+    a,
+    a:hover,
+    a:visited,
+    a:active {
+        text-decoration: none !important;
+        color: inherit;
+    }
+}
+
+.custom__authorsig {
+    border-top: 1px solid $border-color;
+    a.badge {
+        font-size: 0.8em;
+        display: inline-block;
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+        border-radius: 4px;
+        padding: 2px;
+        img {
+            width: auto;
+            max-height: 24px;
+        }
+
+        &,
+        &:hover,
+        &:visited,
+        &:active {
+            text-decoration: none !important;
+            color: white;
+        }
+    }
+}
