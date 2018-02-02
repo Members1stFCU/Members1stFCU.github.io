@@ -13,6 +13,7 @@ This is an ongoing series on .NET Core.
 
 1. Setting up .NET Core
 2. [.NET Core REST API in About 30 Minutes](../dotnet-core-rest-api-in-about-30-minutes)
+3. [.NET Core Request/Response](../dotnet-core-request-response)
 
 ## Tools
 
