@@ -22,6 +22,8 @@ This is an ongoing series on .NET Core.
 1. [Setting up .NET Core](../setting-up-dotnet-core)
 2. [.NET Core REST API in About 30 Minutes](../dotnet-core-rest-api-in-about-30-minutes)
 3. .NET Core Request/Response
+4. [Validation in .NET Core REST API](../validation-in-dotnet-core-rest-api)
+5. [.NET Core Messages, Exception, and Logging](../dotnet-core-messages-exception-and-logging)
 
 ## The Code
 
@@ -503,7 +505,6 @@ services.AddScoped<IAirplaneService, AirplaneService>();
 If you were to instead add the service using `AddSingleton`, you would likely cause the DbContext to no longer be scoped to a particular request. Going back to the example of creating the service using plain Dependency Injection, the DbContext is passed into the constructor when the service is created, and it uses that instance of the context for the life of the service itself. Therefore, if you were to cause the service to live on between multiple requests, that same context would also be shared between those requests.
 
 Luckily, .NET Core appears to throw an exception indicating that this is not possible, but it is still good to understand why it is not.
-
 ***
 
 **Now** we should be able to run the API and test out our changes:
@@ -518,7 +519,7 @@ Again, by going through the requests, you should be able to add, fly, land, and 
 ***
 ## Action Results
 
-To correctly return the status code of `404 Not Found`, modify the `Get` method that returns a single result to return an `IActionResult` and check for whether a result was retrieved, returning the appropriate status, like so:
+To correctly return the status code of `404` for an item not found, modify the `Get` method that returns a single result to return an `IActionResult` and check for whether a result was retrieved, returning the appropriate status, like so:
 
 ```c#
     [HttpGet("{sn}")]

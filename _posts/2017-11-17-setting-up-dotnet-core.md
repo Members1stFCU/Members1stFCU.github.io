@@ -14,6 +14,8 @@ This is an ongoing series on .NET Core.
 1. Setting up .NET Core
 2. [.NET Core REST API in About 30 Minutes](../dotnet-core-rest-api-in-about-30-minutes)
 3. [.NET Core Request/Response](../dotnet-core-request-response)
+4. [Validation in .NET Core REST API](../validation-in-dotnet-core-rest-api)
+5. [.NET Core Messages, Exception, and Logging](../dotnet-core-messages-exception-and-logging)
 
 ## Tools
 

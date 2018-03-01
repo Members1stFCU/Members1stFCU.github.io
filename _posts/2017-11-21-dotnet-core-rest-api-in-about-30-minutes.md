@@ -17,6 +17,8 @@ This is an ongoing series on .NET Core.
 1. [Setting up .NET Core](../setting-up-dotnet-core)
 2. .NET Core REST API in About 30 Minutes
 3. [.NET Core Request/Response](../dotnet-core-request-response)
+4. [Validation in .NET Core REST API](../validation-in-dotnet-core-rest-api)
+5. [.NET Core Messages, Exception, and Logging](../dotnet-core-messages-exception-and-logging)
 
 ## Setup
 
@@ -572,7 +574,7 @@ Now that we have it running and know that it will work, let's try adding the rem
 
 You now have a fully functional .NET Core REST API with 6 different API methods to interact with the Airplane entities. Now that we've gone over the basics, I will create some more posts later to address the following topics:
 
-* Service Layer: ViewModels, `Result` class, and `IActionResults` for proper Status Codes
+* Service Layer, `DTOs`, and `IActionResults` for returning proper Status Codes
 * Using a `MessageProvider` to track messages added by the code throughout the app, in order to provide more information to a client about why things failed
 * Tracking Created/Updated fields using a `DateProvider`/`UserProvider`, and creating a reusable `GenericContext`.
 * EF Migrations and persisting the context to a database
