@@ -11,24 +11,6 @@
   links:
     - name: kramnameloc.com
       url: http://kramnameloc.com
-- name: 'Evan Kaiser'
-  title: '.NET Programmer Analyst II'
-  description: >
-    <p>Evan has over 10 years of experience in full-stack development in many aspects of .NET (Framework and Core), Angular, Node.js, and PHP. 
-    Most recently Evan has been focusing on building SPA (single-page-apps) in Angular (2+) with a .NET Core or Node.js Express REST API backend. 
-    He enjoys writing code following SOLID and DRY development patterns and sharing his knowledge and experiences with other developers (after 
-    figuring out what patterns work and what doesn't!).</p>
-    <p>When not at work, he enjoys playing PS4 games and binging shows with his wife, Kate, hanging out and playing board games with friends, 
-    and cycling on rails-to-trails. Evan and Kate regularly attend (and help to manage and run) Harrisburg's local Contra Dance and International Folk Dance.
-  linkedin: 'm1evankaiser'
-  github: 'm1evankaiser'
-  stackoverflow: '5684886'
-  twitter: 'hashbrowntag'
-  links:
-    - name: Harrisburg Area Contra Dance
-      url: http://harrisburgcontra.org
-    - name: Harrisburg International Folk Dance
-      url: http://harrisburgfolkdance.weebly.com
 - name: 'Robyn Dunstan'
   title: 'Host Programmer Analyst I'
   description: >
